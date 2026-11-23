@@ -1,0 +1,5434 @@
+{
+  "experiment_id": "B1",
+  "extractor_model": "anthropic/claude-haiku-4.5",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_backend": "openrouter",
+  "n_documents": 219,
+  "total_predictions": 476,
+  "total_novel_claims": 249,
+  "total_grounded": 229,
+  "total_hallucinated": 11,
+  "total_ambiguous": 9,
+  "grounded_rate_of_novel": 0.9197,
+  "halluc_rate_of_novel": 0.0442,
+  "ambiguous_rate_of_novel": 0.0361,
+  "novel_rate_of_total": 0.5231,
+  "halluc_rate_of_total": 0.0231,
+  "grounded_rate_of_total": 0.4811,
+  "per_document": [
+    {
+      "doc_id": "10.1021/acs.analchem.5b04370#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/molecules29174260#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "64Cu",
+          "property": "radioactive half-life",
+          "value": "12.7",
+          "unit": "h",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Copper-64 is a positron-emitting radionuclide that has a radioactive half-life of 12.7 h",
+          "reason": "The source text explicitly states that Copper-64 (64Cu) has a radioactive half-life of 12.7 h."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/s24113633#3",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/jmse12101835#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/molecules29174170#5",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/nano9050682#6",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/app122412569#7",
+      "n_predictions": 5,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "64Cu",
+          "property": "beta-minus decay branching ratio",
+          "value": "39",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "64Cu is a 𝛽− (39 %) and 𝛽+ (61 %) emitter",
+          "reason": "The text explicitly states that 64Cu is a beta-minus emitter with a value of 39%."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "64Cu",
+          "property": "beta-plus decay branching ratio",
+          "value": "61",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "64Cu is a 𝛽− (39 %) and 𝛽+ (61 %) emitter",
+          "reason": "The text explicitly states that 64Cu is a beta-plus emitter with a value of 61%."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1088/1468-6996/12/6/064704#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.cub.2019.08.035#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.jpclett.1c03010#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US10838135B2#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1007/s11082-022-03703-x#5",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acsami.4c10831#6",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/ja0550834#1",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Rb2O3",
+          "property": "curie temperature",
+          "value": "300",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "rubidium sesquioxide is a ferromagnet with an estimated Curie temperature of 300 K",
+          "reason": "The source text explicitly states that rubidium sesquioxide (Rb2O3) has an estimated Curie temperature of 300 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/jacs.8b13223#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/s22083005#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ma14041002#4",
+      "n_predictions": 5,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1007/s00706-020-02618-1#5",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.inorgchem.9b03098#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "(C5H11NH3)2CdBr4",
+          "property": "curie temperature",
+          "value": "340.3",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "[cyclopentylammonium]2CdBr4 (1), showing a moderate above-room-temperature Tc of 340.3 K",
+          "reason": "The chemical name (C5H11NH3)2CdBr4 is the formula for [cyclopentylammonium]2CdBr4, and the text explicitly states its Curie temperature (Tc) is 340.3 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/je300240k#1",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "R1234ze(E)",
+          "property": "global warming potential",
+          "value": "6",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "low global warming potential of approximately 6",
+          "reason": "The source text explicitly states that R1234ze(E) has a global warming potential of approximately 6."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/gases4010002#2",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/atmos11050486#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1371/journal.pone.0295157#4",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.catcom.2009.09.005#5",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acssuschemeng.5b01721#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "R1234yf",
+          "property": "global warming potential",
+          "value": "4",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "low global warming potential of 4 relative to CO2",
+          "reason": "The text explicitly states that R1234yf has a global warming potential of 4 relative to CO2."
+        }
+      ]
+    },
+    {
+      "doc_id": "US9653548B2#1",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/en16227621#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/nano12050780#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US6410462B1#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/coatings14060687#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Al(OH)3",
+          "property": "dielectric constant",
+          "value": "2.2",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The dielectric constant of aluminum hydroxide (2.2)",
+          "reason": "The text explicitly states the dielectric constant of aluminum hydroxide is 2.2."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "H2O",
+          "property": "dielectric constant",
+          "value": "80.4",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "that of water (80.4)",
+          "reason": "The text explicitly states the dielectric constant of water is 80.4."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/constrmater4030030#6",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/polym15214268#1",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PDMS",
+          "property": "glass transition temperature",
+          "value": "-123",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the main chain of poly(dimethylsiloxane) is highly flexible due to its low rotational energy barrier, resulting in a glass transition temperature of −123 °C",
+          "reason": "The text explicitly states the glass transition temperature of poly(dimethylsiloxane) (PDMS) is -123 °C."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "PE",
+          "property": "glass transition temperature",
+          "value": "-90",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Another example is polyethylene, which has a glass transition temperature of −90 °C",
+          "reason": "The text explicitly states the glass transition temperature of polyethylene (PE) is -90 °C."
+        }
+      ]
+    },
+    {
+      "doc_id": "CN114558459B#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PEG",
+          "property": "glass transition temperature",
+          "value": "62",
+          "unit": "℃",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the glass transition temperature of polyethylene glycol is about 62 ℃",
+          "reason": "The source text explicitly states that the glass transition temperature of polyethylene glycol (PEG) is about 62 ℃."
+        }
+      ]
+    },
+    {
+      "doc_id": "CN114522546B#3",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 0,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 1.0,
+      "grounded_rate": 0.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "polysulfone",
+          "property": "crosslinking temperature",
+          "value": "80-170",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "The invention utilizes the crosslinking temperature of 80-170 ℃, can realize the thermal crosslinking between the PEG chain segment in PSf-b-PEG and PEG",
+          "reason": "The crosslinking temperature of 80-170 °C refers to the interaction between PEG chain segments in PSf-b-PEG and PEG, not to polysulfone itself."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.2c08146#4",
+      "n_predictions": 4,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "2-pentanol",
+          "property": "glass transition temperature",
+          "value": "140",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "2-pentanol (Tg = 140 K)",
+          "reason": "The source text explicitly states that the glass transition temperature (Tg) of 2-pentanol is 140 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/coatings13071282#5",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 0,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 1.0,
+      "grounded_rate": 0.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PDMS",
+          "property": "glass transition temperature",
+          "value": "-123",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "The silicones also possess one of the lowest glass transition temperatures (−123 °C)",
+          "reason": "The text provides the glass transition temperature for 'silicones', but it does not explicitly mention 'PDMS' (polydimethylsiloxane)."
+        }
+      ]
+    },
+    {
+      "doc_id": "US10968305B2#6",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PS",
+          "property": "glass transition temperature",
+          "value": "100",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "glass transition temperature (Tg) of the polystyrene (100° C.)",
+          "reason": "The text explicitly states the glass transition temperature of polystyrene is 100° C."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "SBS",
+          "property": "styrene composition",
+          "value": "10-30",
+          "unit": "wt %",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "In a typical SBS elastomer, the styrene composition is about 10-30 wt %",
+          "reason": "The text explicitly states the styrene composition for SBS elastomer is 10-30 wt %."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/ijerph15112379#1",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1002/pip.2561#2",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "polycarbonate",
+          "property": "outer sheath temperature",
+          "value": "508.96",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the predicted outer sheath temperatures can rise above the polycarbonate auto-ignition temperature of 450 °C 31. The model suggests that these temperatures can be as high as 508.96 °C",
+          "reason": "The text explicitly links the predicted outer sheath temperatures of polycarbonate to a value of 508.96 °C."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/s150921785#3",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C3H6O",
+          "property": "auto-ignition temperature",
+          "value": "738",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "auto-ignition temperatures of 738 K for acetone",
+          "reason": "Acetone is C3H6O, and the text explicitly states its auto-ignition temperature is 738 K."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "C3H8O",
+          "property": "auto-ignition temperature",
+          "value": "672",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "672 K for 2-propanol",
+          "reason": "2-propanol is C3H8O, and the text explicitly states its auto-ignition temperature is 672 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.jlp.2021.104562#4",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "NMP",
+          "property": "boiling point",
+          "value": "202",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "It has a high boiling point (202 °C)",
+          "reason": "The boiling point of NMP is explicitly stated as 202 °C in the text."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "NMP",
+          "property": "auto-ignition temperature",
+          "value": "252",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "low auto-ignition temperature (252 °C)",
+          "reason": "The auto-ignition temperature of NMP is explicitly stated as 252 °C in the text."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.ijhydene.2023.04.071#5",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2",
+          "property": "auto-ignition temperature",
+          "value": "858",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "hydrogen has a very high auto-ignition temperature of 858 K",
+          "reason": "The source text explicitly states that hydrogen (H2) has an auto-ignition temperature of 858 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1039/D0RA01821J#6",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.jallcom.2020.155725#1",
+      "n_predictions": 3,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Graphene",
+          "property": "young's modulus",
+          "value": "1",
+          "unit": "TPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Young’s modulus of ∼1 TPa",
+          "reason": "The source text explicitly states that graphene has a Young's modulus of approximately 1 TPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "CN216201505U#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "CN110438377A#3",
+      "n_predictions": 21,
+      "n_unverified": 21,
+      "n_grounded": 21,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Zn",
+          "property": "mass percent",
+          "value": "5.5",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Zn content is that 5.5%",
+          "reason": "The mass percent of Zn is explicitly stated as 5.5%."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Mg",
+          "property": "mass percent",
+          "value": "1.5",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Mg content is that 1.5%",
+          "reason": "The mass percent of Mg is explicitly stated as 1.5%."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Mn",
+          "property": "mass percent",
+          "value": "0.35",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Mn content is 0.35%",
+          "reason": "The mass percent of Mn is explicitly stated as 0.35%."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "Cu",
+          "property": "mass percent",
+          "value": "0.12",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Cu content are that 0.12%",
+          "reason": "The mass percent of Cu is explicitly stated as 0.12%."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "Cr",
+          "property": "mass percent",
+          "value": "0.15",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Cr content is 0.15%",
+          "reason": "The mass percent of Cr is explicitly stated as 0.15%."
+        },
+        {
+          "claim_index": 5,
+          "chemical_name": "Zr",
+          "property": "mass percent",
+          "value": "0.2",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Zr content 0.2%",
+          "reason": "The mass percent of Zr is explicitly stated as 0.2%."
+        },
+        {
+          "claim_index": 6,
+          "chemical_name": "Ti",
+          "property": "mass percent",
+          "value": "0.05",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Ti content is 0.05%",
+          "reason": "The mass percent of Ti is explicitly stated as 0.05%."
+        },
+        {
+          "claim_index": 7,
+          "chemical_name": "Al-alloy",
+          "property": "zn/mg ratio",
+          "value": "3.67",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The Zn/Mg ratio of gold is 3.67",
+          "reason": "The Zn/Mg ratio is explicitly stated as 3.67 (note: 'gold' appears to be a translation error for the alloy)."
+        },
+        {
+          "claim_index": 8,
+          "chemical_name": "Al-alloy",
+          "property": "homogenization temperature",
+          "value": "475",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The alloy is by 475 DEG C/Homogenization Treatments",
+          "reason": "The homogenization temperature is explicitly stated as 475 DEG C."
+        },
+        {
+          "claim_index": 9,
+          "chemical_name": "Al-alloy",
+          "property": "homogenization time",
+          "value": "24",
+          "unit": "h",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Homogenization Treatments for 24 hours",
+          "reason": "The homogenization time is explicitly stated as 24 hours."
+        },
+        {
+          "claim_index": 10,
+          "chemical_name": "Al-alloy",
+          "property": "extrusion temperature",
+          "value": "320",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "320 DEG C of temperature of extruding",
+          "reason": "The extrusion temperature is explicitly stated as 320 DEG C."
+        },
+        {
+          "claim_index": 11,
+          "chemical_name": "Al-alloy",
+          "property": "extrusion ratio",
+          "value": "17",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "extrusion ratio 17%",
+          "reason": "The extrusion ratio is explicitly stated as 17%."
+        },
+        {
+          "claim_index": 12,
+          "chemical_name": "Al-alloy",
+          "property": "strain rate",
+          "value": "3.00",
+          "unit": "s-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "strain rate 3.00s-1",
+          "reason": "The strain rate is explicitly stated as 3.00s-1."
+        },
+        {
+          "claim_index": 13,
+          "chemical_name": "Al-alloy",
+          "property": "solution treatment temperature",
+          "value": "475",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "475 DEG C/ The solution treatment of 1.5h",
+          "reason": "The solution treatment temperature is explicitly stated as 475 DEG C."
+        },
+        {
+          "claim_index": 14,
+          "chemical_name": "Al-alloy",
+          "property": "solution treatment time",
+          "value": "1.5",
+          "unit": "h",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The solution treatment of 1.5h",
+          "reason": "The solution treatment time is explicitly stated as 1.5h."
+        },
+        {
+          "claim_index": 15,
+          "chemical_name": "Al-alloy",
+          "property": "quenching temperature",
+          "value": "25",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "hardening media is water, 25 DEG C of hardening heat",
+          "reason": "The text specifies the hardening (quenching) heat/temperature as 25 DEG C."
+        },
+        {
+          "claim_index": 16,
+          "chemical_name": "Al-alloy",
+          "property": "aging temperature (stage 1)",
+          "value": "100",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "successively carries out 100 DEG C/8h and 155 DEG C/8h",
+          "reason": "The first stage of the two-stage processing is listed as 100 DEG C."
+        },
+        {
+          "claim_index": 17,
+          "chemical_name": "Al-alloy",
+          "property": "aging time (stage 1)",
+          "value": "8",
+          "unit": "h",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "successively carries out 100 DEG C/8h and 155 DEG C/8h",
+          "reason": "The duration for the first stage of processing is listed as 8h."
+        },
+        {
+          "claim_index": 18,
+          "chemical_name": "Al-alloy",
+          "property": "aging temperature (stage 2)",
+          "value": "155",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "successively carries out 100 DEG C/8h and 155 DEG C/8h",
+          "reason": "The second stage of the two-stage processing is listed as 155 DEG C."
+        },
+        {
+          "claim_index": 19,
+          "chemical_name": "Al-alloy",
+          "property": "aging time (stage 2)",
+          "value": "8",
+          "unit": "h",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "successively carries out 100 DEG C/8h and 155 DEG C/8h",
+          "reason": "The duration for the second stage of processing is listed as 8h."
+        },
+        {
+          "claim_index": 20,
+          "chemical_name": "Al-alloy",
+          "property": "tensile strength",
+          "value": "400.92",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The tensile strength of gold is 400.92MPa",
+          "reason": "The text explicitly states the tensile strength is 400.92MPa (note: 'gold' is used here as a mistranslation for the alloy/sample)."
+        }
+      ]
+    },
+    {
+      "doc_id": "US4659885A#4",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "tensile strength",
+          "value": "196.1",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "small mechanical strength, i.e., about 196.1 MPa (20 kgf/mm2) in tensile strength, of copper",
+          "reason": "The text explicitly states that copper has a tensile strength of about 196.1 MPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.15376/biores.19.4.8769-8780#5",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "CN103740982B#6",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "TLE",
+          "property": "tensile strength",
+          "value": "580-1000",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "TLM and TLE closes The tensile strength of gold is 580～1000MPa",
+          "reason": "The text explicitly states that the tensile strength for TLE (and TLM) is 580-1000 MPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/met10070853#7",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3389/fmed.2021.675221#1",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "152Sm2O3",
+          "property": "enrichment",
+          "value": "98.7",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Highly enriched 152Sm2O3 (98.7% ± 0.1, Neonest AB) target material",
+          "reason": "The source text explicitly states that the 152Sm2O3 target material was highly enriched to 98.7%."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1051/epjconf/202430216003#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Mo-99",
+          "property": "specific activity",
+          "value": "85 ± 11",
+          "unit": "GBq/g",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the maximum production of the specific activity of molybdenum-99 equal to (85 ± 11) GBq/g Mo",
+          "reason": "The source text explicitly states the specific activity of molybdenum-99 as (85 ± 11) GBq/g Mo."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/ma15155130#3",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/pharmaceutics12111088#4",
+      "n_predictions": 3,
+      "n_unverified": 3,
+      "n_grounded": 2,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.3333,
+      "grounded_rate": 0.6667,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Sr-90",
+          "property": "specific activity",
+          "value": "140",
+          "unit": "Ci/g",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Strontium-90, with a specific activity of 140 curies per g",
+          "reason": "The source text explicitly states the specific activity of Strontium-90 is 140 curies per g."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Sr-90",
+          "property": "half-life",
+          "value": "28",
+          "unit": "year",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Strontium-90, with a specific activity of 140 curies per g and a 28- year half-life",
+          "reason": "The source text explicitly states the half-life of Strontium-90 is 28 years."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Pu-239",
+          "property": "lethal dose",
+          "value": "1e-7",
+          "unit": "g",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "A mere 10~7 g of fissionable plutonium-239 deposited in the lung can initiate cancer.",
+          "reason": "The text states that 10^-7 g can 'initiate cancer', which is not equivalent to a 'lethal dose'."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.2139/ssrn.5043497#5",
+      "n_predictions": 3,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Lu-177",
+          "property": "neutron flux",
+          "value": "1.42e12",
+          "unit": "n/cm2/s",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The preliminary experimental results, conducted at a flux of 1.42×1012 n/cm2/s for both methods",
+          "reason": "The source text explicitly states the neutron flux used for the production methods of Lutetium-177 as 1.42×1012 n/cm2/s."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1007/s44274-024-00174-7#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "14C",
+          "property": "specific activity",
+          "value": "1.657e11",
+          "unit": "Bq g−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The specific activity of radiocarbon is 1.657 × 1011 Bq g−1.",
+          "reason": "The source text explicitly states the specific activity of radiocarbon (14C) as 1.657 × 10^11 Bq g−1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/polym14071287#1",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "electrical conductivity",
+          "value": "5.96e7",
+          "unit": "S·m−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Copper also possesses high electrical conductivity (5.96 × 107 S∙m−1)",
+          "reason": "The source text explicitly states the electrical conductivity of copper as 5.96 × 107 S∙m−1, which matches the claim."
+        }
+      ]
+    },
+    {
+      "doc_id": "US11870307B2#2",
+      "n_predictions": 4,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "electrical conductivity",
+          "value": "58e6",
+          "unit": "S/m",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "copper with an electrical conductivity of 58·106 S/m",
+          "reason": "The text explicitly states the electrical conductivity of copper as 58·106 S/m, which matches the claim value 58e6."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Ag",
+          "property": "electrical conductivity",
+          "value": "61e6",
+          "unit": "S/m",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "silver with an electrical conductivity of 61·106 S/m",
+          "reason": "The text explicitly states the electrical conductivity of silver as 61·106 S/m, which matches the claim value 61e6."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Au",
+          "property": "electrical conductivity",
+          "value": "45e6",
+          "unit": "S/m",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "gold with an electrical conductivity of 45·106 S/m",
+          "reason": "The text explicitly states the electrical conductivity of gold as 45·106 S/m, which matches the claim value 45e6."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/coatings12040454#3",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "TiN",
+          "property": "thermal expansion coefficient",
+          "value": "0.63",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "slight difference of 0.63% in thermal expansion coefficient with Ti substrate",
+          "reason": "The text explicitly states a 0.63% difference in the thermal expansion coefficient for TiN relative to the Ti substrate."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1029/2020JB020094#4",
+      "n_predictions": 5,
+      "n_unverified": 4,
+      "n_grounded": 4,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "KAlSi3O8",
+          "property": "pressure",
+          "value": "12",
+          "unit": "GPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "we investigate the electrical conductivity of liebermannite at 12, 15, and 24 GPa",
+          "reason": "The text explicitly states that the electrical conductivity of liebermannite (KAlSi3O8) was investigated at 12 GPa."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "KAlSi3O8",
+          "property": "pressure",
+          "value": "15",
+          "unit": "GPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "we investigate the electrical conductivity of liebermannite at 12, 15, and 24 GPa",
+          "reason": "The text explicitly states that the electrical conductivity of liebermannite (KAlSi3O8) was investigated at 15 GPa."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "KAlSi3O8",
+          "property": "pressure",
+          "value": "24",
+          "unit": "GPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "we investigate the electrical conductivity of liebermannite at 12, 15, and 24 GPa",
+          "reason": "The text explicitly states that the electrical conductivity of liebermannite (KAlSi3O8) was investigated at 24 GPa."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "KAlSi3O8",
+          "property": "temperature",
+          "value": "1500",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "we investigate the electrical conductivity of liebermannite at 12, 15, and 24 GPa and temperature of 1500 K",
+          "reason": "The text explicitly states that the electrical conductivity of liebermannite (KAlSi3O8) was investigated at a temperature of 1500 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/met9010065#5",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Al",
+          "property": "electrical conductivity",
+          "value": "65",
+          "unit": "% IACS",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Pure aluminum without impure metals dissolved in its crystal lattice has the electrical conductivity of 65% IACS.",
+          "reason": "The source text explicitly states that pure aluminum has an electrical conductivity of 65% IACS."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1088/1361-6595/acc130#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "electrical conductivity",
+          "value": "2-1000",
+          "unit": "µS/cm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "influence of water electrical conductivity (σ), between 2 and 1000 µS cm−1",
+          "reason": "The text explicitly states the electrical conductivity of water is between 2 and 1000 µS cm−1."
+        }
+      ]
+    },
+    {
+      "doc_id": "US10670334B2#1",
+      "n_predictions": 3,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2",
+          "property": "thermal conductivity",
+          "value": "0.18",
+          "unit": "W/m·K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Even though hydrogen has slightly higher thermal conductivity (0.18 W/m·K)",
+          "reason": "The text explicitly states the thermal conductivity of hydrogen (H2) is 0.18 W/m·K."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "He",
+          "property": "thermal conductivity",
+          "value": "0.15",
+          "unit": "W/m·K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "than that (0.15 W/m·K) of helium (Z12)",
+          "reason": "The text explicitly states the thermal conductivity of helium (He) is 0.15 W/m·K."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "air",
+          "property": "thermal conductivity",
+          "value": "0.026",
+          "unit": "W/m·K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The thermal conductivity of helium (0.15 W/m·K) is much higher than that (0.026 W/m·K) of air.",
+          "reason": "The text explicitly states the thermal conductivity of air is 0.026 W/m·K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/polym11061073#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C",
+          "property": "thermal conductivity",
+          "value": "250",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The thermal conductivity of graphite is around 250 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of graphite (carbon) is 250 W/(m·K)."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/e19010019#3",
+      "n_predictions": 6,
+      "n_unverified": 6,
+      "n_grounded": 6,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "thermal conductivity",
+          "value": "0.58",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "water, 0.58 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of water is 0.58 W/(m·K)."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "EG",
+          "property": "thermal conductivity",
+          "value": "0.18",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "ethylene glycol, 0.18 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of ethylene glycol is 0.18 W/(m·K)."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Fe",
+          "property": "thermal conductivity",
+          "value": "80",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "iron, 80 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of iron is 80 W/(m·K)."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "Cu",
+          "property": "thermal conductivity",
+          "value": "400",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "copper, 400 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of copper is 400 W/(m·K)."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "Ag",
+          "property": "thermal conductivity",
+          "value": "430",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "silver, 430 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of silver is 430 W/(m·K)."
+        },
+        {
+          "claim_index": 5,
+          "chemical_name": "C",
+          "property": "thermal conductivity",
+          "value": "1000-1500",
+          "unit": "W/(m·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "graphite, 1000 to 1500 W/(m·K)",
+          "reason": "The text explicitly states the thermal conductivity of graphite is 1000 to 1500 W/(m·K)."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.9b03465#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ma16082972#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Al",
+          "property": "thermal conductivity",
+          "value": "237",
+          "unit": "W m−1 K−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Aluminum has a thermal conductivity of 237 W m−1 K−1.",
+          "reason": "The source text explicitly states the thermal conductivity of aluminum is 237 W m−1 K−1."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Al",
+          "property": "density",
+          "value": "2.7",
+          "unit": "g cm−3",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Its density is 2.7 g cm−3",
+          "reason": "The source text explicitly states the density of aluminum is 2.7 g cm−3."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/gels10110707#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "aerogel",
+          "property": "temperature coefficient",
+          "value": "1e-5",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the temperature coefficient is of the order of 10−5",
+          "reason": "The text explicitly states the temperature coefficient is of the order of 10-5, which matches the claim value of 1e-5."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acspolymersau.2c00014#1",
+      "n_predictions": 3,
+      "n_unverified": 3,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 2,
+      "halluc_rate": 0.0,
+      "grounded_rate": 0.3333,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PS",
+          "property": "electric breakdown field",
+          "value": "200",
+          "unit": "V/μm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "polystyrene (EBD ≈ 200 V/μm)",
+          "reason": "The text explicitly states the electric breakdown field (EBD) for polystyrene (PS) is approximately 200 V/μm."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "cPS",
+          "property": "dielectric strength",
+          "value": "50",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "The dielectric strength of cPS shows ∼50% enhancement over that of PS",
+          "reason": "The value 50% refers to an enhancement (relative increase) over PS, not the absolute dielectric strength of cPS itself."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "cPS",
+          "property": "maximum capacitive energy density",
+          "value": "80",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "translates to an ∼80% increase in the maximum capacitive energy density",
+          "reason": "The value 80% refers to an increase relative to PS, not the absolute value of the maximum capacitive energy density for cPS."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.cej.2019.123147#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/act9020043#3",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US10497598B2#4",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PVDF",
+          "property": "dielectric constant",
+          "value": "10",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Polyvinylidene fluoride (PVDF) has a notably higher dielectric constant of near 10",
+          "reason": "The text explicitly states that PVDF has a dielectric constant of near 10."
+        }
+      ]
+    },
+    {
+      "doc_id": "US10951134B2#5",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/jcs5020052#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PP",
+          "property": "dielectric strength",
+          "value": "23.6",
+          "unit": "kV/mm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "For polypropylene, the dielectric strength obtained by ASTM D149 is approximately 23.6 kV/mm",
+          "reason": "The source text explicitly states the dielectric strength of polypropylene (PP) is approximately 23.6 kV/mm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.chemrev.3c00739#1",
+      "n_predictions": 4,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "CN101225221B#2",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "CN101225221B#3",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.polymer.2024.126745#4",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PS",
+          "property": "elongation at break",
+          "value": "70",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the elongation at break of polystyrene can reach up to 70 %",
+          "reason": "The text explicitly states that the elongation at break of polystyrene (PS) can reach 70%."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "PS",
+          "property": "physical aging resistance",
+          "value": "9",
+          "unit": "months",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the sample displayed a physical aging resistance of over 9 months",
+          "reason": "The text states the sample (polystyrene film) displayed a physical aging resistance of over 9 months."
+        }
+      ]
+    },
+    {
+      "doc_id": "CN104448270B#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PTA-SA-BD-PLA",
+          "property": "number average molecular weight",
+          "value": "22.0",
+          "unit": "kg/mol",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "obtains poly terephthalic acid succinic acid-butanediol ester-polylactic acid segmented copolymer；Its relative number average molecular weight is 22.0kg/mol.",
+          "reason": "The source text explicitly states the relative number average molecular weight for the poly terephthalic acid succinic acid-butanediol ester-polylactic acid (PTA-SA-BD-PLA) is 22.0kg/mol."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "PTA-SA-BD-PLA",
+          "property": "elongation at break",
+          "value": "320",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the elongation at break of poly terephthalic acid succinic acid-butanediol ester-polylactic acid is 320%",
+          "reason": "The source text explicitly states the elongation at break for the specified copolymer is 320%."
+        }
+      ]
+    },
+    {
+      "doc_id": "CN109354845A#6",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ijerph7072903#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/membranes10100291#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C4H10",
+          "property": "vapor pressure",
+          "value": "1.6",
+          "unit": "bar",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Due to the low butane vapor pressure at room temperature, 1.6 bar",
+          "reason": "The text explicitly states that the vapor pressure of butane (C4H10) at room temperature is 1.6 bar."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.indenv.2024.100049#3",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3389/fbioe.2023.1309503#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1039/C6CP01948J#5",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.inorgchem.1c00731#6",
+      "n_predictions": 4,
+      "n_unverified": 3,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 2,
+      "halluc_rate": 0.0,
+      "grounded_rate": 0.3333,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "AlN",
+          "property": "al:n ratio",
+          "value": "1.04",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "produced crystalline AlN films above 200 °C with an Al:N ratio of 1.04",
+          "reason": "The text explicitly states the Al:N ratio for AlN films is 1.04."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "AlN",
+          "property": "carbon impurity content",
+          "value": "1",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "Carbon and oxygen impurities in resultant AlN films were reduced to <1% and <2%, respectively",
+          "reason": "The text specifies the value is less than 1% (<1%), not exactly 1%."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "AlN",
+          "property": "oxygen impurity content",
+          "value": "2",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "Carbon and oxygen impurities in resultant AlN films were reduced to <1% and <2%, respectively",
+          "reason": "The text specifies the value is less than 2% (<2%), not exactly 2%."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1142/S0217979225500687#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1038/s41467-023-39826-2#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/cryst8020093#3",
+      "n_predictions": 4,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ma9080692#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/met13121921#5",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/ja043806y#6",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "EP2327809A1#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ma12071192#2",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ma15196896#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.jpclett.6b02444#4",
+      "n_predictions": 5,
+      "n_unverified": 4,
+      "n_grounded": 4,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "α-BeB6",
+          "property": "superconducting temperature",
+          "value": "9",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "α-BeB6... is predicted to be superconducting at 9 K",
+          "reason": "The text explicitly states the superconducting temperature of α-BeB6 is 9 K."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "β-BeB6",
+          "property": "superconducting temperature",
+          "value": "24",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The β-BeB6 is predicted to be superconducting at 24 K",
+          "reason": "The text explicitly states the superconducting temperature of β-BeB6 is 24 K."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "β-BeB6",
+          "property": "pressure stability",
+          "value": "4",
+          "unit": "GPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Above 4 GPa, β-BeB6 is stabilized",
+          "reason": "The text explicitly links the stability of β-BeB6 to pressures above 4 GPa."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "γ-BeB6",
+          "property": "pressure stability",
+          "value": "340",
+          "unit": "GPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The γ-BeB6 is stable above 340 GPa",
+          "reason": "The text explicitly states that γ-BeB6 is stable above 340 GPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/jp5018357#5",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.jpcc.0c07648#6",
+      "n_predictions": 4,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/es500234y#1",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Ag",
+          "property": "median effect concentration (ec50)",
+          "value": "0.187",
+          "unit": "mg/L",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "a median effect concentration value (EC50) of 0.187 mg Ag/L for Daphnia magna",
+          "reason": "The text explicitly states the EC50 value of 0.187 mg Ag/L for silver."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Ag",
+          "property": "median lethal concentration (lc50)",
+          "value": "0.696",
+          "unit": "μg/L",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "a median lethal concentration value (LC50) of 0.696 μg Ag/L for Ceriodaphnia dubia",
+          "reason": "The text explicitly states the LC50 value of 0.696 μg Ag/L for silver."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.ecoenv.2015.09.033#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "La",
+          "property": "ec50",
+          "value": "5.56",
+          "unit": "mg L−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Inhibition only occurred at high concentrations with an EC50 of 5.56 mg La L−1.",
+          "reason": "The text explicitly states the EC50 value for lanthanum (La) as 5.56 mg L−1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.scitotenv.2024.170441#3",
+      "n_predictions": 4,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Ce",
+          "property": "concentration",
+          "value": "0.01-14000",
+          "unit": "μg/L",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Significantly high concentrations of Ce (0.01–14,000 μg/L) were detected",
+          "reason": "The concentration range for Ce is explicitly stated as 0.01–14,000 μg/L."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Ce",
+          "property": "exposure concentration",
+          "value": "5-20",
+          "unit": "mg/L",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Seven days of Ce exposure (5–20 mg/L) induced a reduction",
+          "reason": "The exposure concentration range for Ce is explicitly stated as 5–20 mg/L."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Ce",
+          "property": "exposure concentration",
+          "value": "0.5",
+          "unit": "μM",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Exposure to a low concentration of Ce (0.5 μM) for 2 h",
+          "reason": "The exposure concentration for Ce is explicitly stated as 0.5 μM."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.jmedchem.0c00510#4",
+      "n_predictions": 3,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "enoxacin",
+          "property": "dose",
+          "value": "10",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "enoxacin did not show any toxic effect at the dose used (10 mg/kg i.p. daily injection for 4 weeks)",
+          "reason": "The text explicitly states the dose of enoxacin used was 10 mg/kg."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.est.2c09854#5",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.est.2c08581#6",
+      "n_predictions": 3,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Li",
+          "property": "ec50",
+          "value": "33-197",
+          "unit": "mg L⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "for Daphnia magna, the reported EC50 varies between 33–197 mg L–1",
+          "reason": "The text explicitly states the EC50 range for lithium (implied by context) for Daphnia magna."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Li",
+          "property": "concentration",
+          "value": "30",
+          "unit": "mg L⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The analyzed extinguishing water in this work contained 30 and 110 mg L–1 of lithium for the BEV and battery, respectively.",
+          "reason": "The text explicitly states a lithium concentration of 30 mg L–1 for the BEV."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Li",
+          "property": "concentration",
+          "value": "110",
+          "unit": "mg L⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The analyzed extinguishing water in this work contained 30 and 110 mg L–1 of lithium for the BEV and battery, respectively.",
+          "reason": "The text explicitly states a lithium concentration of 110 mg L–1 for the battery."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.cej.2023.147963#1",
+      "n_predictions": 3,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "MoS2",
+          "property": "elastic deformation",
+          "value": "25",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "MoS2 is a sturdy semi-conducting material that can withstand up to 25 % elastic deformation before getting ruptured completely.",
+          "reason": "The source text explicitly states that MoS2 can withstand up to 25% elastic deformation."
+        }
+      ]
+    },
+    {
+      "doc_id": "CN116306058B#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Al",
+          "property": "yield stress",
+          "value": "100",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "assuming that the material of the material model is aluminum, the yield stress of aluminum is set to 100MPa",
+          "reason": "The source text explicitly states that the yield stress of aluminum is set to 100MPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1186/s13018-019-1062-8#3",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Ti",
+          "property": "yield stress",
+          "value": "800",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "yield stress of titanium (800 MPa)",
+          "reason": "The source text explicitly states that the yield stress of titanium is 800 MPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "US5006913A#4",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Si",
+          "property": "yield stress",
+          "value": "1010",
+          "unit": "dyne/cm2",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the stress is larger than 1010 dyne/cm2 which is the yield stress of silicon",
+          "reason": "The text explicitly states that the yield stress of silicon (Si) is 1010 dyne/cm2."
+        }
+      ]
+    },
+    {
+      "doc_id": "EP0078525A2#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "DSP",
+          "property": "compressive strength",
+          "value": "260",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the DSP materials may attain compressive strengths which are up to 4 - 6 times the compressive strength of normal cement-based products, in special embodiments even as high as the yield stress of iron (about 260 MPa)",
+          "reason": "The text explicitly states that in special embodiments, DSP materials can reach a compressive strength of about 260 MPa."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "DSP",
+          "property": "compressive strength ratio to normal cement",
+          "value": "4-6",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the DSP materials may attain compressive strengths which are up to 4 - 6 times the compressive strength of normal cement-based products",
+          "reason": "The text explicitly mentions that DSP materials can have compressive strengths 4-6 times that of normal cement-based products."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.surfcoat.2022.128549#6",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/met13081479#1",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "HCOOH",
+          "property": "pka",
+          "value": "3.75",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The pKa value for formic acid is 3.75",
+          "reason": "The source text explicitly states the pKa of formic acid (HCOOH) is 3.75."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/ijms20163915#2",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/ic402561g#3",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "bpy",
+          "property": "pka",
+          "value": "10.5",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "4,4′-bipyridyl (pKa = 10.5)",
+          "reason": "The text explicitly states that 4,4′-bipyridyl (abbreviated as bpy in the context of the compound name) has a pKa of 10.5."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/app14198580#4",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CH3COOH",
+          "property": "pka",
+          "value": "4.79",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "acetic acid (pKa = 4.79)",
+          "reason": "The text explicitly states the pKa of acetic acid (CH3COOH) is 4.79."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "C4H6O5",
+          "property": "pka",
+          "value": "3.45",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "malic acid (pKa = 3.45)",
+          "reason": "The text explicitly states the pKa of malic acid (C4H6O5) is 3.45."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/fermentation9010078#5",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/app14104016#6",
+      "n_predictions": 3,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C3H6O3",
+          "property": "pka",
+          "value": "3.80",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "pKa of lactic acid at 3.80",
+          "reason": "Lactic acid has the chemical formula C3H6O3 and the text explicitly states its pKa is 3.80."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "C8H8O2",
+          "property": "pka",
+          "value": "4.30",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "pKa of phenylacetic acid at 4.30",
+          "reason": "Phenylacetic acid has the chemical formula C8H8O2 and the text explicitly states its pKa is 4.30."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "CH3COOH",
+          "property": "pka",
+          "value": "4.76",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "pKa of acetic acid at 4.76",
+          "reason": "Acetic acid has the chemical formula CH3COOH and the text explicitly states its pKa is 4.76."
+        }
+      ]
+    },
+    {
+      "doc_id": "EP2494996B1#1",
+      "n_predictions": 5,
+      "n_unverified": 5,
+      "n_grounded": 3,
+      "n_hallucinated": 1,
+      "n_ambiguous": 1,
+      "halluc_rate": 0.2,
+      "grounded_rate": 0.6,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "PLCL",
+          "property": "hildebrand solubility parameter",
+          "value": "10.85",
+          "unit": "(cal/cm³)½",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the poly(L-lactide-co-ε-caprolactone) has a Hildebrand solubility parameter of 10.85 (cal/cm3)½",
+          "reason": "The chemical name PLCL is a standard abbreviation for poly(L-lactide-co-ε-caprolactone), and the value and unit match exactly."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "PLCL",
+          "property": "coating thickness",
+          "value": "1-10",
+          "unit": "µm",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "the drug reservoir layer has a coating thickness from 1 µm to 10 µm",
+          "reason": "The text attributes the coating thickness to the 'drug reservoir layer', not specifically to the chemical PLCL."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "drug-polymer",
+          "property": "drug to polymer ratio",
+          "value": "1.0:0.5-1:0:10.0",
+          "unit": "wt/wt",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "the drug to polymer wt/wt ratio is from 1.0:0:5 to 1:0:10.0",
+          "reason": "The claim value '1.0:0.5-1:0:10.0' contains typos/formatting errors compared to the source text '1.0:0:5 to 1:0:10.0'."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "drug",
+          "property": "drug dose",
+          "value": "5-200",
+          "unit": "microgram/cm²",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the drug dose is from 5-200 microgram/cm2",
+          "reason": "The value and unit for the drug dose are explicitly stated in the text."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "drug",
+          "property": "drug dose",
+          "value": "20-100",
+          "unit": "microgram/cm²",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "preferably from 20-100 microgram/cm2",
+          "reason": "The preferred range for the drug dose is explicitly stated in the text."
+        }
+      ]
+    },
+    {
+      "doc_id": "US10934246B2#2",
+      "n_predictions": 12,
+      "n_unverified": 12,
+      "n_grounded": 11,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0833,
+      "grounded_rate": 0.9167,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C5H10O",
+          "property": "hildebrand solubility parameter",
+          "value": "17.2",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "cyclopentyl methyl ether (Hildebrand solubility parameter (δ): 17.2 MPa1/2)",
+          "reason": "The value 17.2 is associated with cyclopentyl methyl ether, but the claim uses the formula C5H10O (which is the formula for cyclopentanol or methyl propyl ether, not cyclopentyl methyl ether C6H12O)."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "THF",
+          "property": "hildebrand solubility parameter",
+          "value": "18.6",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "tetrahydrofuran ((δ): 18.6 MPa1/2)",
+          "reason": "THF is a standard abbreviation for tetrahydrofuran, and the value matches the text."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "MTBE",
+          "property": "hildebrand solubility parameter",
+          "value": "15.6",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "methyl-t-butyl ether ((δ): 15.6 MPa1/2)",
+          "reason": "MTBE is a standard abbreviation for methyl-t-butyl ether, and the value matches the text."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "Et2O",
+          "property": "hildebrand solubility parameter",
+          "value": "15.1",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "diethyl ether ((δ): 15.1 MPa1/2)",
+          "reason": "Et2O is the chemical formula/abbreviation for diethyl ether, and the value matches the text."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "Bu2O",
+          "property": "hildebrand solubility parameter",
+          "value": "14.9",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "dibutyl ether ((δ): 14.9 MPa1/2)",
+          "reason": "Bu2O is the chemical formula/abbreviation for dibutyl ether, and the value matches the text."
+        },
+        {
+          "claim_index": 5,
+          "chemical_name": "iPr2O",
+          "property": "hildebrand solubility parameter",
+          "value": "14.1",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "diisopropyl ether ((δ): 14.1 MPa1/2)",
+          "reason": "iPr2O is the chemical formula/abbreviation for diisopropyl ether, and the value matches the text."
+        },
+        {
+          "claim_index": 6,
+          "chemical_name": "C4H10O2",
+          "property": "hildebrand solubility parameter",
+          "value": "19.2",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "1,2-dimethoxyethane ((δ): 19.2 MPa1/2)",
+          "reason": "C4H10O2 is the molecular formula for 1,2-dimethoxyethane, and the value matches the text."
+        },
+        {
+          "claim_index": 7,
+          "chemical_name": "CH3COCH2CH3",
+          "property": "hildebrand solubility parameter",
+          "value": "19.0",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "2-butanone ((δ): 19.0 MPa1/2)",
+          "reason": "CH3COCH2CH3 is the structural formula for 2-butanone, and the value matches the text."
+        },
+        {
+          "claim_index": 8,
+          "chemical_name": "CHCl3",
+          "property": "hildebrand solubility parameter",
+          "value": "19.0",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "chloroform ((δ): 19.0 MPa1/2)",
+          "reason": "CHCl3 is the chemical formula for chloroform, and the value matches the text."
+        },
+        {
+          "claim_index": 9,
+          "chemical_name": "CH3COOC2H5",
+          "property": "hildebrand solubility parameter",
+          "value": "18.6",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "ethyl acetate ((δ): 18.6 MPa1/2)",
+          "reason": "CH3COOC2H5 is the chemical formula for ethyl acetate, and the value matches the text."
+        },
+        {
+          "claim_index": 10,
+          "chemical_name": "C6H5CH3",
+          "property": "hildebrand solubility parameter",
+          "value": "18.2",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "toluene ((δ): 18.2 MPa1/2)",
+          "reason": "C6H5CH3 is the chemical formula for toluene, and the value matches the text."
+        },
+        {
+          "claim_index": 11,
+          "chemical_name": "C6H12",
+          "property": "hildebrand solubility parameter",
+          "value": "16.7",
+          "unit": "MPa^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "cyclohexane ((δ): 16.7 MPa1/2)",
+          "reason": "C6H12 is the chemical formula for cyclohexane, and the value matches the text."
+        }
+      ]
+    },
+    {
+      "doc_id": "US8822608B1#3",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US9284432B2#4",
+      "n_predictions": 6,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "DMSO",
+          "property": "hildebrand solubility parameter",
+          "value": "14.4",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "dimethylsulfoxide (14.4)",
+          "reason": "DMSO is the common abbreviation for dimethylsulfoxide, and the text explicitly assigns it a solubility parameter value of 14.4."
+        }
+      ]
+    },
+    {
+      "doc_id": "WO2024038276A1#5",
+      "n_predictions": 4,
+      "n_unverified": 4,
+      "n_grounded": 4,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CH3COCH3",
+          "property": "hildebrand solubility parameter",
+          "value": "19.9",
+          "unit": "MPa0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "acetone (having a Hildebrand solubility parameter of 19.9Mpa05)",
+          "reason": "The chemical formula CH3COCH3 corresponds to acetone, and the value matches the text."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "C7H8",
+          "property": "hildebrand solubility parameter",
+          "value": "18.3",
+          "unit": "MPa0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "toluene (having a Hildebrand solubility parameter of 18.3Pa05)",
+          "reason": "The chemical formula C7H8 corresponds to toluene, and the value matches the text (treating 'Pa05' as a typo for 'Mpa05' consistent with the rest of the text)."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "CH2Cl2",
+          "property": "hildebrand solubility parameter",
+          "value": "20.2",
+          "unit": "MPa0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Dichloromethane (having a Hildebrand solubility parameter of 20.2 Mpa05)",
+          "reason": "The chemical formula CH2Cl2 corresponds to dichloromethane, and the value matches the text."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "C4H8O",
+          "property": "hildebrand solubility parameter",
+          "value": "19.3",
+          "unit": "MPa0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Methyl ethyl ketone (MEK) (having a Hildebrand solubility parameter of 19.3 Mpa05)",
+          "reason": "The chemical formula C4H8O corresponds to methyl ethyl ketone, and the value matches the text."
+        }
+      ]
+    },
+    {
+      "doc_id": "CA3201463A1#6",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US8440213B2#7",
+      "n_predictions": 4,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "polyethoxylated distyryl and tristyryl phenols",
+          "property": "ethoxylation moles",
+          "value": "17",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "a mixture of polyethoxylated distyryl and tristyryl phenols with 17 ethoxylation moles",
+          "reason": "The text explicitly states that the mixture of polyethoxylated distyryl and tristyryl phenols has 17 ethoxylation moles."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "polyethoxylated castor oil",
+          "property": "ethoxylation moles",
+          "value": "29",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "polyethoxylated castor oil with 29 ethoxylation moles",
+          "reason": "The text explicitly states that polyethoxylated castor oil has 29 ethoxylation moles."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "polyethoxylated tristyrylphenol",
+          "property": "ethoxylation moles",
+          "value": "16",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "polyethoxylated tristyrylphenol with 16 ethoxylation moles",
+          "reason": "The text explicitly states that polyethoxylated tristyrylphenol has 16 ethoxylation moles."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/molecules28166124#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/electronics11193180#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acs.iecr.9b03970#3",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "HCOOH",
+          "property": "solubility parameter",
+          "value": "24.9",
+          "unit": "MPa1/2",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "formic acid (24.9 MPa1/2)",
+          "reason": "The source text explicitly states the solubility parameter of formic acid (HCOOH) is 24.9 MPa1/2."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1039/D2SU00084A#4",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.molliq.2022.120294#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "MSME",
+          "property": "hildebrand solubility parameter",
+          "value": "8.49",
+          "unit": "(cal/m³)^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Srinivas et al. [24] calculated the Hildebrand solubility parameter of methyl soybean methyl ester via the IGC method and found through extrapolation that the solubility parameter at room temperature is 8.49 (cal/m−3)1/2.",
+          "reason": "The text explicitly states the Hildebrand solubility parameter for methyl soybean methyl ester (MSME) is 8.49 (cal/m−3)1/2."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "MSME",
+          "property": "hansen solubility parameter",
+          "value": "8.41",
+          "unit": "(cal/m³)^0.5",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The Hansen solubility parameter of 8.41 (cal/m−3)1/2 was calculated by drawing Hansen solubility Hansen spheres in the Hsp3D program.",
+          "reason": "The text attributes the Hansen solubility parameter of 8.41 (cal/m−3)1/2 to the same compound (methyl soybean methyl ester) discussed in the preceding sentence."
+        }
+      ]
+    },
+    {
+      "doc_id": "CA2225589A1#6",
+      "n_predictions": 3,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O2",
+          "property": "concentration",
+          "value": "4",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "aqueous cle~ning compositions containing (1) 4% of H2O2 (50% solution)",
+          "reason": "The text explicitly states that the cleaning compositions contain 4% of H2O2."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "STEPANOL WAC",
+          "property": "concentration",
+          "value": "0.3",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "(2) 0.3 % STEPANOL WACTM (anionic 20 surfactant)",
+          "reason": "The text explicitly states that the cleaning compositions contain 0.3% STEPANOL WAC."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/ijerph14070689#1",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Sb",
+          "property": "permissible exposure limit",
+          "value": "0.5",
+          "unit": "mg/m3",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The permissible exposure limit (PEL) established by the US Occupational Safety and Health Administration for exposure to antimony and compounds is 0.5 mg/m3 of antimony in the workplace",
+          "reason": "The text explicitly states the PEL for antimony (Sb) is 0.5 mg/m3."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Sb",
+          "property": "time weighted average concentration",
+          "value": "0.5",
+          "unit": "mg/m3",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Taiwan has also adopted the 8 h time weighted average concentration of antimony and its compounds in the air of workplace at a level of 0.5 mg/m3",
+          "reason": "The text explicitly states the time weighted average concentration for antimony (Sb) is 0.5 mg/m3."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.jhazmat.2019.120944#2",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CO",
+          "property": "permissible exposure limit",
+          "value": "50",
+          "unit": "ppm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "US Occupational Safety and Health Administration (OSHA) sets the permissible exposure limit of CO is 50 ppm",
+          "reason": "The source text explicitly states that the permissible exposure limit for CO is 50 ppm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3233/WOR-205#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.ijheh.2012.07.003#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1186/1476-069X-2-9#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CH2Cl2",
+          "property": "permissible exposure limit",
+          "value": "87",
+          "unit": "mg/m3",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "OSHA Permissible Exposure Limit of 87 mg/m3",
+          "reason": "The text explicitly states the OSHA Permissible Exposure Limit for methylene chloride (CH2Cl2) is 87 mg/m3."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "CH2Cl2",
+          "property": "permissible exposure limit",
+          "value": "25",
+          "unit": "ppm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "OSHA Permissible Exposure Limit of 87 mg/m3 or 25 ppm",
+          "reason": "The text explicitly states the OSHA Permissible Exposure Limit for methylene chloride (CH2Cl2) is 25 ppm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1371/journal.pgph.0002085#6",
+      "n_predictions": 0,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/toxics12070489#7",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2SO4",
+          "property": "permissible exposure limit",
+          "value": "1",
+          "unit": "mg/m3",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "A permissible exposure limit (PEL) of 1 mg/m3 [9] proposed by the Occupational Safety and Health Administration (OSHA) in the United States",
+          "reason": "The text explicitly states a PEL of 1 mg/m3 for sulfuric acid (H2SO4) as proposed by OSHA."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.est.3c01134#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/antiox9121233#2",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/membranes12080776#3",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "K2SO4",
+          "property": "solubility in water",
+          "value": "111",
+          "unit": "g/L",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Potassium Sulfate (K2SO4) serves as a soluble test dust in the experiments. It has a good solubility in water of 111 g/L at 20 °C",
+          "reason": "The source text explicitly states that K2SO4 has a solubility in water of 111 g/L."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acssuschemeng.1c00167#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.4236/jacen.2024.133018#5",
+      "n_predictions": 4,
+      "n_unverified": 3,
+      "n_grounded": 3,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "nitrapyrin",
+          "property": "water solubility",
+          "value": "72",
+          "unit": "mg·kg−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "nitrapyrin (solubility in water 72 mg∙kg−1 at 25˚C",
+          "reason": "The water solubility of nitrapyrin is explicitly stated as 72 mg∙kg−1."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "nitrapyrin",
+          "property": "fortification concentration",
+          "value": "0.20",
+          "unit": "µg·g−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "six untreated samples of each commodity studied fortified at 0.20 µg∙g−1 with either nitrapyrin or 6-CPA",
+          "reason": "The text states that samples were fortified at 0.20 µg∙g−1 with nitrapyrin."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "6-CPA",
+          "property": "fortification concentration",
+          "value": "0.20",
+          "unit": "µg·g−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "six untreated samples of each commodity studied fortified at 0.20 µg∙g−1 with either nitrapyrin or 6-CPA",
+          "reason": "The text states that samples were fortified at 0.20 µg∙g−1 with 6-CPA."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1002/ejic.202100743#6",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/app9010120#7",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US20190293024A1#1",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 1,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.5,
+      "grounded_rate": 0.5,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2",
+          "property": "specific heat",
+          "value": "14",
+          "unit": "KJ/(kg·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the specific heat of hydrogen is 14 KJ/(kg° K)",
+          "reason": "The text explicitly states the specific heat of hydrogen is 14 KJ/(kg° K)."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "LH2",
+          "property": "latent heat",
+          "value": "21172",
+          "unit": "KJ/kg",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "Heating LH2 from 20° K to 1,500° K will absorb approximately 21,172 KJ/kg",
+          "reason": "The value 21,172 KJ/kg refers to the total heat absorbed during heating from 20K to 1,500K, not the latent heat of LH2."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1002/2013JC009393#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US20120210931A1#3",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Si",
+          "property": "specific heat",
+          "value": "18.71",
+          "unit": "J/mol/K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "specific heat of silicon (18.71 J/mol/K)",
+          "reason": "The source text explicitly states the specific heat of silicon is 18.71 J/mol/K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3389/fchem.2020.00547/full#4",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 1,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.5,
+      "grounded_rate": 0.5,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "specific heat",
+          "value": "4.22",
+          "unit": "kJ/(kg·K)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "specific heat of water 4.22 kJ kg−1·K−1",
+          "reason": "The text explicitly states the specific heat of water is 4.22 kJ kg−1·K−1."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "H2O",
+          "property": "latent heat",
+          "value": "42.2",
+          "unit": "kJ/kg",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "In this temperature range, the latent heat of water is not available. The required energy 42.2 kJ·kg−1 was calculated by multiplying the specific heat of water 4.22 kJ kg−1·K−1 (IAPWS, 2008) with the temperature difference 10 K.",
+          "reason": "The text explicitly states that the latent heat of water is NOT available and that 42.2 kJ/kg is a calculated 'required energy' based on specific heat and a temperature difference, not the latent heat."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/su16229972#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "specific heat",
+          "value": "4180",
+          "unit": "J/(kg·°C)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the specific heat of water is 4180 J/(kg·°C)",
+          "reason": "The text explicitly states the specific heat of water (H2O) is 4180 J/(kg·°C)."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "H2O(s)",
+          "property": "specific heat",
+          "value": "2090",
+          "unit": "J/(kg·°C)",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the specific heat of ice is 2090 J/(kg·°C)",
+          "reason": "The text explicitly states the specific heat of ice (H2O(s)) is 2090 J/(kg·°C)."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/fire7070258#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C2H6O",
+          "property": "specific heat capacity",
+          "value": "2.460",
+          "unit": "kJ/kg·K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "higher specific heat of ethanol (2.460 kJ/kg·K)",
+          "reason": "The source text explicitly states the specific heat of ethanol is 2.460 kJ/kg·K, and C2H6O is the chemical formula for ethanol."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1007/s10646-010-0489-9#1",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "As",
+          "property": "bioconcentration factor",
+          "value": "10.401",
+          "unit": "ml g⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The derived bioconcentration factor of 10.401 ml g−1 suggests that arsenic has a high potential for bioaccumulation in C. fluminea.",
+          "reason": "The source text explicitly states the bioconcentration factor for arsenic as 10.401 ml g−1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/resources10050046#2",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 1,
+      "halluc_rate": 0.0,
+      "grounded_rate": 0.5,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cd",
+          "property": "bioconcentration factor",
+          "value": "0.764",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the bioconcentration factor reached a value of 0.764",
+          "reason": "The text explicitly states the bioconcentration factor (BCF) for cadmium in Alyssum saxatile L. is 0.764."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Cr",
+          "property": "transfer factor",
+          "value": "1",
+          "unit": "",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "its value slightly exceeds one for all tested combinations",
+          "reason": "The text states the transfer factor for Cr 'slightly exceeds one', but does not provide a specific numeric value of 1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1038/s41598-024-81740-0#3",
+      "n_predictions": 6,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/min14030298#4",
+      "n_predictions": 0,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ijerph19063583#5",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.36278/jeaht.24.2.51#7",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/met14091090#1",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "corrosion potential",
+          "value": "-7.01",
+          "unit": "mVSCE",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "copper acts as the anode with a corrosion potential of −7.01 mVSCE",
+          "reason": "The text explicitly states the corrosion potential of copper (Cu) is -7.01 mVSCE."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Au",
+          "property": "corrosion potential",
+          "value": "91",
+          "unit": "mVSCE",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "gold functions as the cathode with a corrosion potential of 91 mVSCE",
+          "reason": "The text explicitly states the corrosion potential of gold (Au) is 91 mVSCE."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1126/sciadv.adq6758#2",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "US20090155616A1#3",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Al",
+          "property": "corrosion potential",
+          "value": "-0.8",
+          "unit": "V",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Aluminum has a corrosion potential of approximately −0.8V.",
+          "reason": "The text explicitly states the corrosion potential of aluminum (Al) is approximately -0.8V."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Mg",
+          "property": "corrosion potential",
+          "value": "-1.6",
+          "unit": "V",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Magnesium has a corrosion potential of approximately −1.6V.",
+          "reason": "The text explicitly states the corrosion potential of magnesium (Mg) is approximately -1.6V."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.2c01561#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/met7030084#5",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.7733/jnfcwt.2024.007#6",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "corrosion potential",
+          "value": "-0.2",
+          "unit": "V",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "corrosion potential of copper (approx. −0.2 V)",
+          "reason": "The text explicitly states the corrosion potential of copper is approximately -0.2 V."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "H2O",
+          "property": "electrolysis voltage",
+          "value": "1.23",
+          "unit": "V",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "electrolysis voltage of water (approx. +1.23 V)",
+          "reason": "The text explicitly states the electrolysis voltage of water is approximately +1.23 V."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/molecules29184332#1",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1007/s10973-022-11326-3#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1016/j.jct.2016.11.027#3",
+      "n_predictions": 4,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "menthol",
+          "property": "vaporization enthalpy",
+          "value": "74.2",
+          "unit": "kJ mol⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Vaporization enthalpies of (96.6 ± 2.4) and (74.2 ± 2.8) kJ mol−1 ... were evaluated at T = 298.15 K for (−) α-bisabolol and (dl)-menthol, respectively",
+          "reason": "The text explicitly assigns the value 74.2 kJ mol-1 to (dl)-menthol."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "menthol",
+          "property": "vapor pressure",
+          "value": "4.5",
+          "unit": "Pa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "vapor pressures of p/Pa = (0.020 ± 0.003) and (4.5 ± 0.44) were evaluated at T = 298.15 K for (−) α-bisabolol and (dl)-menthol, respectively",
+          "reason": "The text explicitly assigns the value 4.5 Pa to (dl)-menthol."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/molecules27072321#4",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1002/cphc.202400066#5",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "ibuprofen",
+          "property": "vaporization enthalpy",
+          "value": "92.2",
+          "unit": "kJ/mol",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "vaporization enthalpies mathematical equation (298.15 K)=92.2±0.9 kJ ⋅ mol−1 for (S)-(+)-ibuprofen",
+          "reason": "The value 92.2 kJ/mol is explicitly stated as the vaporization enthalpy for (S)-(+)-ibuprofen."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "ibuprofen",
+          "property": "vaporization enthalpy",
+          "value": "91.4",
+          "unit": "kJ/mol",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "mathematical equation (298.15 K)=91.4±0.9 kJ ⋅ mol−1 for RS-(±)-ibuprofen",
+          "reason": "The value 91.4 kJ/mol is explicitly stated as the vaporization enthalpy for RS-(±)-ibuprofen."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1039/C6CP01948J#6",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1098/rsos.181193#7",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Hf(OiPr)4",
+          "property": "vaporization enthalpy",
+          "value": "109.2",
+          "unit": "kJ mol−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the vaporization enthalpy (ΔHvap) can be calculated (109.2 ± 0.47 kJ mol−1)",
+          "reason": "The source text explicitly states the vaporization enthalpy for hafnium isopropoxide (Hf(OiPr)4) as 109.2 kJ mol−1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/molecules26133809#8",
+      "n_predictions": 5,
+      "n_unverified": 4,
+      "n_grounded": 2,
+      "n_hallucinated": 2,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.5,
+      "grounded_rate": 0.5,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "methamphetamine",
+          "property": "vaporization enthalpy",
+          "value": "54.4-63.0",
+          "unit": "kJ·mol⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "vaporization enthalpy of S (+)-methamphetamine has been reported as (58.7 ± 4.3) kJ·mol−1",
+          "reason": "The range 54.4-63.0 is the result of calculating 58.7 minus and plus 4.3."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "ethyl p-aminobenzoate",
+          "property": "vaporization enthalpy",
+          "value": "-0.1-1.9",
+          "unit": "kJ·mol⁻¹",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "Values as small as (0.9 ± 1.0) kJ·mol−1 have been observed between liquid ethyl and methyl p-aminobenzoate",
+          "reason": "The text provides the difference in enthalpy between the two compounds, not the absolute enthalpy value for ethyl p-aminobenzoate."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "methyl p-aminobenzoate",
+          "property": "vaporization enthalpy",
+          "value": "-0.1-1.9",
+          "unit": "kJ·mol⁻¹",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "Values as small as (0.9 ± 1.0) kJ·mol−1 have been observed between liquid ethyl and methyl p-aminobenzoate",
+          "reason": "The text provides the difference in enthalpy between the two compounds, not the absolute enthalpy value for methyl p-aminobenzoate."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "methamphetamine",
+          "property": "vapor pressure",
+          "value": "38",
+          "unit": "Pa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "a value of 38 Pa evaluated for S (+)-methamphetamine at T = 298.15 K",
+          "reason": "The vapor pressure of 38 Pa for methamphetamine is explicitly stated."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/agronomy11020222#9",
+      "n_predictions": 6,
+      "n_unverified": 6,
+      "n_grounded": 6,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "P",
+          "property": "recovery",
+          "value": "63-81",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Nonvolatile substances such as phosphorus, potassium, sodium, and manganese also displayed similar recoveries in the dried fraction, ranging from 63% to 81%",
+          "reason": "Phosphorus (P) is explicitly listed as one of the substances with recoveries ranging from 63% to 81%."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "K",
+          "property": "recovery",
+          "value": "63-81",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Nonvolatile substances such as phosphorus, potassium, sodium, and manganese also displayed similar recoveries in the dried fraction, ranging from 63% to 81%",
+          "reason": "Potassium (K) is explicitly listed as one of the substances with recoveries ranging from 63% to 81%."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "Na",
+          "property": "recovery",
+          "value": "63-81",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Nonvolatile substances such as phosphorus, potassium, sodium, and manganese also displayed similar recoveries in the dried fraction, ranging from 63% to 81%",
+          "reason": "Sodium (Na) is explicitly listed as one of the substances with recoveries ranging from 63% to 81%."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "Mn",
+          "property": "recovery",
+          "value": "63-81",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Nonvolatile substances such as phosphorus, potassium, sodium, and manganese also displayed similar recoveries in the dried fraction, ranging from 63% to 81%",
+          "reason": "Manganese (Mn) is explicitly listed as one of the substances with recoveries ranging from 63% to 81%."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "Ca",
+          "property": "recovery",
+          "value": "29",
+          "unit": "%",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "although for calcium recovery it was as low as 29%",
+          "reason": "The text explicitly states that calcium (Ca) recovery was as low as 29%."
+        },
+        {
+          "claim_index": 5,
+          "chemical_name": "H2O",
+          "property": "vaporization enthalpy",
+          "value": "2.442",
+          "unit": "MJ/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the vaporization enthalpy of water is 2.442 MJ kg−1",
+          "reason": "The vaporization enthalpy of water (H2O) is explicitly stated as 2.442 MJ kg−1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/liquids4030025#10",
+      "n_predictions": 4,
+      "n_unverified": 3,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 1,
+      "halluc_rate": 0.0,
+      "grounded_rate": 0.6667,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "5a-androstane",
+          "property": "vaporization enthalpy",
+          "value": "87.8",
+          "unit": "kJ·mol⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "5α-Androstane, a C19H32 hydrocarbon, with a vaporization enthalpy of (87.8 ± 2.0) kJ₷mol⁻¹",
+          "reason": "The vaporization enthalpy for 5α-androstane is explicitly stated as 87.8 kJ·mol⁻¹."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "5a-androstane",
+          "property": "temperature range (correlated)",
+          "value": "298.15-400",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "calculated by Equation (2) using correlated values from T = (298.15 to 400) K",
+          "reason": "The text explicitly mentions correlated values for 5α-androstane in the range of 298.15 to 400 K."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "5a-androstane",
+          "property": "temperature range (extended correlation)",
+          "value": "298.15-550",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "medium",
+          "evidence": "the line was generated by data evaluated by correlation up to 550 K",
+          "reason": "While the text mentions correlation 'up to 550 K', it does not explicitly state the lower bound of this extended range as 298.15 K, although it is implied by the context of the previous range."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/agronomy11020222#11",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "vaporization enthalpy",
+          "value": "42.773",
+          "unit": "kJ/mol",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the vaporization enthalpy of water with the value of 42.773 kJ/mol",
+          "reason": "The source text explicitly states the vaporization enthalpy of water is 42.773 kJ/mol."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.jct.2013.08.005#12",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "methamphetamine",
+          "property": "vapor pressure",
+          "value": "20",
+          "unit": "Pa",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "A vapor pressure of 20 Pa at T = 298.15 K has been estimated by ACD Labs software as cited by SciFinder Scholar [6].",
+          "reason": "The text explicitly states a vapor pressure of 20 Pa for S (+)-methamphetamine."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "methamphetamine",
+          "property": "vaporization enthalpy",
+          "value": "45.19",
+          "unit": "kJ·mol⁻¹",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Estimates of the vaporization enthalpy of (45.19 ± 3.0) kJ · mol−1 have also been reported for S (+)-methamphetamine [6].",
+          "reason": "The text explicitly provides the vaporization enthalpy value of 45.19 kJ·mol-1 for S (+)-methamphetamine."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.7b01873#1",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "[Oct(MIM)][Br]",
+          "property": "median lethal concentration",
+          "value": "4.71",
+          "unit": "mM",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "a median lethal concentration (LC50) of 4.71 mM was measured for [Oct(MIM)][Br]",
+          "reason": "The compound, property (LC50), value, and unit are all explicitly stated in the source text."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/np020291k#2",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 1,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.5,
+      "grounded_rate": 0.5,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "3",
+          "property": "lc50",
+          "value": "2.5",
+          "unit": "ppm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Compound 3 exhibited an LC50 of 2.5 ppm when evaluated against neonate larvae of Spodoptera littoralis",
+          "reason": "The text explicitly states the LC50 value for compound 3 as 2.5 ppm."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "4",
+          "property": "lc50",
+          "value": "100",
+          "unit": "ppm",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "4 was inactive in this assay up to 100 ppm",
+          "reason": "The text states compound 4 was inactive up to 100 ppm, meaning the LC50 is greater than 100 ppm, not equal to 100 ppm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.est.3c01134#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3389/fenvs.2022.1001504/full#4",
+      "n_predictions": 3,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "sgRNA",
+          "property": "final concentration",
+          "value": "200",
+          "unit": "ng/ul",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "sgRNA (final concentration of 200 ng/ul)",
+          "reason": "The source text explicitly states the final concentration of sgRNA is 200 ng/ul."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Cas9 mRNA",
+          "property": "final concentration",
+          "value": "400",
+          "unit": "ng/ul",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Cas9 mRNA (final concentration of 400 ng/ul)",
+          "reason": "The source text explicitly states the final concentration of Cas9 mRNA is 400 ng/ul."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.est.3c10588#5",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "chlorpheniramine",
+          "property": "median lethal concentration",
+          "value": "12.2",
+          "unit": "mg L–1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the median lethal concentration (LC50) of chlorpheniramine on flatworms, which was found to be 12.2 mg L–1",
+          "reason": "The compound, property, value, and unit are explicitly stated in the source text."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1038/s41598-024-73794-x#6",
+      "n_predictions": 8,
+      "n_unverified": 8,
+      "n_grounded": 8,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CuOCl2",
+          "property": "lc50",
+          "value": "2511.9",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "A median lethal concentration (LC50) of copper oxychloride was computed using probit analysis and was found to be 2511.9 mg/kg.",
+          "reason": "The LC50 value for copper oxychloride (CuOCl2) is explicitly stated as 2511.9 mg/kg."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "CuOCl2",
+          "property": "test temperature",
+          "value": "22",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the test temperature was 22°± 2 °C",
+          "reason": "The test temperature for the copper oxychloride experiment is explicitly stated as 22°C."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "CuOCl2",
+          "property": "concentration",
+          "value": "100",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The concentration selected was 100 mg, 200 mg, 400 mg, 800 mg, 1600 mg, and 3200 mg/kg soil.",
+          "reason": "100 mg/kg is listed as one of the concentrations used for copper oxychloride."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "CuOCl2",
+          "property": "concentration",
+          "value": "200",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The concentration selected was 100 mg, 200 mg, 400 mg, 800 mg, 1600 mg, and 3200 mg/kg soil.",
+          "reason": "200 mg/kg is listed as one of the concentrations used for copper oxychloride."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "CuOCl2",
+          "property": "concentration",
+          "value": "400",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The concentration selected was 100 mg, 200 mg, 400 mg, 800 mg, 1600 mg, and 3200 mg/kg soil.",
+          "reason": "400 mg/kg is listed as one of the concentrations used for copper oxychloride."
+        },
+        {
+          "claim_index": 5,
+          "chemical_name": "CuOCl2",
+          "property": "concentration",
+          "value": "800",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The concentration selected was 100 mg, 200 mg, 400 mg, 800 mg, 1600 mg, and 3200 mg/kg soil.",
+          "reason": "800 mg/kg is listed as one of the concentrations used for copper oxychloride."
+        },
+        {
+          "claim_index": 6,
+          "chemical_name": "CuOCl2",
+          "property": "concentration",
+          "value": "1600",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The concentration selected was 100 mg, 200 mg, 400 mg, 800 mg, 1600 mg, and 3200 mg/kg soil.",
+          "reason": "1600 mg/kg is listed as one of the concentrations used for copper oxychloride."
+        },
+        {
+          "claim_index": 7,
+          "chemical_name": "CuOCl2",
+          "property": "concentration",
+          "value": "3200",
+          "unit": "mg/kg",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The concentration selected was 100 mg, 200 mg, 400 mg, 800 mg, 1600 mg, and 3200 mg/kg soil.",
+          "reason": "3200 mg/kg is listed as one of the concentrations used for copper oxychloride."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/toxics11030212#7",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1590/S2179-975X8118#7",
+      "n_predictions": 5,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/cryst12091293#1",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Al",
+          "property": "diffusion coefficient",
+          "value": "1e-11",
+          "unit": "cm2/s",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The diffusion coefficient of Al into Ti and the diffusion coefficient of Ti into Al at 500 °C are reported to be 1 × 10−11 cm2/s and 5.6 × 10−21 cm2/s, respectively",
+          "reason": "The text explicitly states the diffusion coefficient of Al into Ti is 1 × 10−11 cm2/s."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Ti",
+          "property": "diffusion coefficient",
+          "value": "5.6e-21",
+          "unit": "cm2/s",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The diffusion coefficient of Al into Ti and the diffusion coefficient of Ti into Al at 500 °C are reported to be 1 × 10−11 cm2/s and 5.6 × 10−21 cm2/s, respectively",
+          "reason": "The text explicitly states the diffusion coefficient of Ti into Al is 5.6 × 10−21 cm2/s."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/cryst12091293#2",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "diffusion coefficient",
+          "value": "2.6e-9",
+          "unit": "cm2/s",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "diffusion coefficients of Cu into Al and into Ti at 500 °C are 2.6 × 10−9 cm2/s and 5.5 × 10−17 cm2/s, respectively",
+          "reason": "The text explicitly states the diffusion coefficient of Cu into Al is 2.6 × 10−9 cm2/s."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Cu",
+          "property": "diffusion coefficient",
+          "value": "5.5e-17",
+          "unit": "cm2/s",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "diffusion coefficients of Cu into Al and into Ti at 500 °C are 2.6 × 10−9 cm2/s and 5.5 × 10−17 cm2/s, respectively",
+          "reason": "The text explicitly states the diffusion coefficient of Cu into Ti is 5.5 × 10−17 cm2/s."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/cryst9030131#3",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Cu",
+          "property": "diffusion coefficient",
+          "value": "2.42e-12",
+          "unit": "cm2·s-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "this fit provides a Cu diffusion coefficient in ZnO at 1000 °C with a value of 2.42(±0.2) × 10−12 cm2∙s−1",
+          "reason": "The source text explicitly states the Cu diffusion coefficient value as 2.42 x 10^-12 cm2∙s-1."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1111/j.1365-2389.1982.tb01757.x#5",
+      "n_predictions": 4,
+      "n_unverified": 4,
+      "n_grounded": 4,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CO2",
+          "property": "binary diffusion coefficient",
+          "value": "0.139",
+          "unit": "cm2 s−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Measured diffusion coefficients (cm2 s−1 at NTP) in air for carbon dioxide (0.139)",
+          "reason": "The value 0.139 for carbon dioxide (CO2) is explicitly stated in the text with the correct units."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "N2O",
+          "property": "binary diffusion coefficient",
+          "value": "0.143",
+          "unit": "cm2 s−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Measured diffusion coefficients (cm2 s−1 at NTP) in air for ... nitrous oxide (0.143)",
+          "reason": "The value 0.143 for nitrous oxide (N2O) is explicitly stated in the text with the correct units."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "C2H4",
+          "property": "binary diffusion coefficient",
+          "value": "0.137",
+          "unit": "cm2 s−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Measured diffusion coefficients (cm2 s−1 at NTP) in air for ... ethylene (0.137)",
+          "reason": "The value 0.137 for ethylene (C2H4) is explicitly stated in the text with the correct units."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "C2H6",
+          "property": "binary diffusion coefficient",
+          "value": "0.128",
+          "unit": "cm2 s−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Measured diffusion coefficients (cm2 s−1 at NTP) in air for ... ethane (0.128)",
+          "reason": "The value 0.128 for ethane (C2H6) is explicitly stated in the text with the correct units."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1177/0021955X221087598#6",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CO2",
+          "property": "diffusion coefficient",
+          "value": "2.36e-5",
+          "unit": "cm2/s",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Kundra et al. give a diffusion coefficient of 2.36 ∙10−5 cm2/s76 for CO2 in polypropylene at a temperature of 453 K",
+          "reason": "The source text explicitly states the diffusion coefficient for CO2 as 2.36 ∙10−5 cm2/s."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/jp952903y#4",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "nitrobenzene",
+          "property": "diffusion coefficient in water at 26 °c",
+          "value": "1.04e-5",
+          "unit": "cm2 s-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the diffusion coefficient of nitrobenzene in water was carefully measured and found to be 1.04 × 10-5 cm2 s-1 at 26 °C",
+          "reason": "The compound, property, value, and temperature are explicitly stated in the text."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "nitrobenzene",
+          "property": "diffusion coefficient in water at 60.1 °c",
+          "value": "2.14e-5",
+          "unit": "cm2 s-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the diffusion coefficient of nitrobenzene in water was carefully measured and found to be ... 2.14 × 10-5 cm2 s-1 at 60.1 °C",
+          "reason": "The compound, property, value, and temperature are explicitly stated in the text."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/pr12061266#8",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 0,
+      "n_hallucinated": 1,
+      "n_ambiguous": 0,
+      "halluc_rate": 1.0,
+      "grounded_rate": 0.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "diffusion coefficient",
+          "value": "1e-14-1e-13",
+          "unit": "m2 s-1",
+          "covariate": null,
+          "verdict": "hallucinated",
+          "confidence": "high",
+          "evidence": "revealed diffusion coefficients for water in polyurethane in the range of 10−14–10−13 m2 s−1",
+          "reason": "The value 10−14–10−13 m2 s−1 refers to the diffusion of water in polyurethane, not the diffusion coefficient of H2O in general or in the PVA-H2O system mentioned later."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsmeasuresciau.3c00009#9",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.4236/ajps.2013.45118#11",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1155/2021/6621425#12",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "MgCO3",
+          "property": "pore size",
+          "value": "20-25",
+          "unit": "Å",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Magnesite with the pore size of 20~25 Å",
+          "reason": "Magnesite is the mineral form of MgCO3, and the text explicitly states the pore size as 20~25 Å."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1016/j.fuel.2022.124740#13",
+      "n_predictions": 5,
+      "n_unverified": 4,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 2,
+      "halluc_rate": 0.0,
+      "grounded_rate": 0.5,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CH4",
+          "property": "temperature",
+          "value": "30",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Pomeroy et al. [17] measured the diffusion coefficients of CH4 in isopentane and gasoline using a PVT cell at a temperature of 30 °C",
+          "reason": "The text explicitly states the temperature for the measurement of CH4 was 30 °C."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "CH4",
+          "property": "pressure",
+          "value": "2",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "pressures up to ∼2 MPa",
+          "reason": "The text specifies pressures 'up to' approximately 2 MPa, rather than a fixed value of 2 MPa."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "CH4",
+          "property": "temperature",
+          "value": "30",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Pomeroy et al. [17] measured the diffusion coefficients of CH4 in isopentane and gasoline using a PVT cell at a temperature of 30 °C",
+          "reason": "The text explicitly states the temperature for the measurement of CH4 was 30 °C."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "CH4",
+          "property": "pressure",
+          "value": "2",
+          "unit": "MPa",
+          "covariate": null,
+          "verdict": "ambiguous",
+          "confidence": "high",
+          "evidence": "pressures up to ∼2 MPa",
+          "reason": "The text specifies pressures 'up to' approximately 2 MPa, rather than a fixed value of 2 MPa."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/agronomy13051247#1",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1038/s41538-020-00079-8#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3389/fenvs.2020.586584/full#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1080/22201181.2016.1191227#4",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "paracetamol",
+          "property": "octanol:water partition coefficient",
+          "value": "0.46-0.49",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "the octanol:water partition coefficient (logPow) of paracetamol is 0.46–0.49",
+          "reason": "The source text explicitly states the octanol:water partition coefficient for paracetamol as 0.46-0.49."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1002/mnfr.202100507#5",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/pharmaceutics13091409#6",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1128/spectrum.00607-22#7",
+      "n_predictions": 1,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "prodigiosin",
+          "property": "logpow",
+          "value": "5.16",
+          "unit": "",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "this molecule is highly hydrophobic (LogPOW of 5.16)",
+          "reason": "The source text explicitly states that prodigiosin has a LogPOW of 5.16."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/s20226671#1",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "monochloramine",
+          "property": "maximum absorbance wavelength",
+          "value": "245",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "monochloramine has a maximum absorbance at the 245-nm wavelength",
+          "reason": "The source text explicitly states that monochloramine has a maximum absorbance at 245 nm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/chemosensors11050274#2",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Np(V)",
+          "property": "wavelength",
+          "value": "979",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The dominating band in the spectrum is centered at 979 nm for Np(V)",
+          "reason": "The source text explicitly states that the dominating band for Np(V) is centered at 979 nm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/catal12030335#3",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Pr(III)",
+          "property": "wavelength of maximum absorbance",
+          "value": "590",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The values calculated were based on the absorbance values at the maximum in the absorbance peak for Pr(III) at 590 nm",
+          "reason": "The text explicitly states that the maximum absorbance peak for Pr(III) is at 590 nm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.macromol.1c00761#4",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/jacsau.3c00793#5",
+      "n_predictions": 4,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Np(VI)",
+          "property": "absorption wavelength",
+          "value": "1230",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Np(VI) was quantified based on the 1230 nm band",
+          "reason": "The text explicitly links Np(VI) quantification to the 1230 nm absorption band."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Np(V)",
+          "property": "absorption wavelength",
+          "value": "980",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Np(V) was quantified based on the 980 nm band",
+          "reason": "The text explicitly links Np(V) quantification to the 980 nm absorption band."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.langmuir.4c02792#6",
+      "n_predictions": 6,
+      "n_unverified": 5,
+      "n_grounded": 5,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "TauCl",
+          "property": "wavelength",
+          "value": "252",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "its final concentration was calculated from its molar absorptivity coefficient at 252 nm",
+          "reason": "The text explicitly links the molar absorptivity coefficient of TauCl to the wavelength of 252 nm."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "TauCl",
+          "property": "concentration",
+          "value": "200",
+          "unit": "μmol L-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "incubated at 37 °C for 1 h in a 200 μmol L-1 solution of TauCl",
+          "reason": "The text explicitly states the concentration of the TauCl solution used for incubation was 200 μmol L-1."
+        },
+        {
+          "claim_index": 2,
+          "chemical_name": "CFL-1",
+          "property": "concentration",
+          "value": "2",
+          "unit": "μmol L-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "an aliquot of a CFL-1 solution (2 μmol L-1)",
+          "reason": "The text explicitly states the concentration of the CFL-1 solution was 2 μmol L-1."
+        },
+        {
+          "claim_index": 3,
+          "chemical_name": "CFL-1",
+          "property": "temperature",
+          "value": "37",
+          "unit": "°C",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "an aliquot of a CFL-1 solution (2 μmol L-1) was incubated at 37 °C",
+          "reason": "The text explicitly states that the CFL-1 solution was incubated at 37 °C."
+        },
+        {
+          "claim_index": 4,
+          "chemical_name": "CFL-1",
+          "property": "incubation time",
+          "value": "1",
+          "unit": "h",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "incubated at 37 °C for 1 h",
+          "reason": "The text explicitly states the incubation time for the CFL-1 solution was 1 h."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/cen-v044n048.p020#7",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "3-nitrotyrosine",
+          "property": "absorption maximum wavelength",
+          "value": "428",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The compound exhibits an absorption band with a maximum at 428 mµ",
+          "reason": "The text explicitly states the absorption maximum for 3-nitrotyrosine is 428 mµ, and mµ (millimicrons) is equivalent to nm (nanometers)."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.3c08231#8",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "C6H8O6",
+          "property": "molar absorption coefficient",
+          "value": "2.8",
+          "unit": "mM-1 cm-1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "ascorbic acid, ε = 2.8 mM-1 cm-1",
+          "reason": "The source text explicitly states the molar absorption coefficient for ascorbic acid (C6H8O6) is 2.8 mM-1 cm-1."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "N6-Me-L,L-DAP",
+          "property": "absorbance wavelength",
+          "value": "570",
+          "unit": "nm",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The formation of N6-MeL,L-DAP was detected by measuring the change in absorbance at 570 nm",
+          "reason": "The text explicitly links the detection of N6-MeL,L-DAP to an absorbance measurement at 570 nm."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.3390/ma15010281#1",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/en15010063#2",
+      "n_predictions": 2,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "H2O",
+          "property": "gibbs free energy of formation",
+          "value": "56.7",
+          "unit": "kJmol−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "The Gibbs free energy of formation of water (∆Gf,H2O ∆Gf,H2O = 56.7 kJmol−1)",
+          "reason": "The value for the Gibbs free energy of formation of H2O is explicitly stated in the text."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "CO2",
+          "property": "gibbs free energy of formation",
+          "value": "61.3",
+          "unit": "kJmol−1",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "that of the carbon dioxide (∆Gf,CO2 ∆Gf,CO2 = 61.3 kJmol−1)",
+          "reason": "The value for the Gibbs free energy of formation of CO2 is explicitly stated in the text."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.1c03049#3",
+      "n_predictions": 2,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/ma13184166#4",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.3390/met12091424#5",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/jp2023742#6",
+      "n_predictions": 3,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Li3N",
+          "property": "reversible capacity",
+          "value": "10",
+          "unit": "wt %",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "we observe a significant enhancement of the reversible capacity (from ∼3 to ∼10 wt % H after 516 cycles at 528 K)",
+          "reason": "The text explicitly states that the reversible capacity of Li3N reached ~10 wt % H under the specified conditions."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acs.inorgchem.0c01476#1",
+      "n_predictions": 2,
+      "n_unverified": 1,
+      "n_grounded": 1,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "CeSiO4",
+          "property": "metastability energy",
+          "value": "27.5",
+          "unit": "kJ/mol",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Stetindite is energetically metastable with respect to CeO2 and SiO2 by 27.5 ± 3.1 kJ/mol.",
+          "reason": "The text explicitly states that stetindite (CeSiO4) is metastable by 27.5 kJ/mol."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1021/acsomega.3c00603#2",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1007/s11663-024-02995-6#3",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/jp022024t#4",
+      "n_predictions": 1,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    },
+    {
+      "doc_id": "10.1021/acsearthspacechem.0c00231#5",
+      "n_predictions": 4,
+      "n_unverified": 2,
+      "n_grounded": 2,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "grounded_rate": 1.0,
+      "verdicts": [
+        {
+          "claim_index": 0,
+          "chemical_name": "Ce4.67(SiO4)3O",
+          "property": "temperature of partial oxidation",
+          "value": "533-873",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "Ce4.67(SiO4)3O had a slow partial oxidation between 533 and 873 K",
+          "reason": "The text explicitly states the temperature range for the partial oxidation of the specified compound."
+        },
+        {
+          "claim_index": 1,
+          "chemical_name": "Ce4.67(SiO4)3O",
+          "property": "thermal decomposition temperature",
+          "value": "1000",
+          "unit": "K",
+          "covariate": null,
+          "verdict": "grounded",
+          "confidence": "high",
+          "evidence": "followed by a thermal decomposition to CeO2 and SiO2 at ∼1000 K in air",
+          "reason": "The text explicitly states the thermal decomposition temperature of the compound is approximately 1000 K."
+        }
+      ]
+    },
+    {
+      "doc_id": "10.1186/s40543-018-0144-2#6",
+      "n_predictions": 3,
+      "n_unverified": 0,
+      "n_grounded": 0,
+      "n_hallucinated": 0,
+      "n_ambiguous": 0,
+      "halluc_rate": 0.0,
+      "verdicts": []
+    }
+  ]
+}

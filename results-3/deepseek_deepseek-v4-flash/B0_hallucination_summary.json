@@ -1,0 +1,18 @@
+{
+  "experiment_id": "B0",
+  "extractor_model": "deepseek/deepseek-v4-flash",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_backend": "openrouter",
+  "n_documents": 218,
+  "total_predictions": 410,
+  "total_novel_claims": 183,
+  "total_grounded": 181,
+  "total_hallucinated": 2,
+  "total_ambiguous": 0,
+  "grounded_rate_of_novel": 0.9891,
+  "halluc_rate_of_novel": 0.0109,
+  "ambiguous_rate_of_novel": 0.0,
+  "novel_rate_of_total": 0.4463,
+  "halluc_rate_of_total": 0.0049,
+  "grounded_rate_of_total": 0.4415
+}

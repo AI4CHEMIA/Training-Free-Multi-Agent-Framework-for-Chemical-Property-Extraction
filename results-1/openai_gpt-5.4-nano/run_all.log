@@ -1,0 +1,108 @@
+20:21:01 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+20:21:01 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+20:21:01 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+20:21:01 [INFO] __main__: Backend         : openrouter
+20:21:01 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+20:21:01 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+20:21:01 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+20:21:01 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:21:01 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:21:01 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:21:01 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+20:21:01 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:21:01 [INFO] experiments.rebuild_results_from_trace: [B0] Completeness=0.8021  TupleInt=0.5519  BaseAcc=0.5440
+20:21:28 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+20:21:28 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+20:21:28 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+20:21:28 [INFO] __main__: Backend         : openrouter
+20:21:28 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+20:21:28 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+20:21:28 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+20:21:28 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:21:28 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:21:28 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:21:28 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+20:21:28 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:21:28 [INFO] experiments.rebuild_results_from_trace: [B0] Completeness=0.8021  TupleInt=0.5519  BaseAcc=0.5440
+20:41:12 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+20:41:12 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+20:41:12 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+20:41:12 [INFO] __main__: Backend         : openrouter
+20:41:12 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+20:41:12 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+20:41:12 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+20:41:12 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:41:12 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:41:12 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:41:12 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+20:41:12 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:44:15 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+20:44:15 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+20:44:15 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+20:44:15 [INFO] __main__: Backend         : openrouter
+20:44:15 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+20:44:15 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+20:44:15 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+20:44:16 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:44:16 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:44:16 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:44:16 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+20:44:16 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:44:39 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+20:44:39 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+20:44:39 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+20:44:39 [INFO] __main__: Backend         : openrouter
+20:44:39 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+20:44:39 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+20:44:39 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+20:44:39 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:44:39 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:44:39 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:44:39 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+20:44:39 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:45:04 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+20:45:04 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+20:45:04 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+20:45:04 [INFO] __main__: Backend         : openrouter
+20:45:04 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+20:45:04 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+20:45:04 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+20:45:04 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:45:04 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:45:04 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:45:04 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+20:45:04 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:45:04 [INFO] experiments.rebuild_results_from_trace: [B0] Completeness=0.8227  TupleInt=0.8171  BaseAcc=0.5481
+21:32:16 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+21:32:16 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+21:32:16 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+21:32:16 [INFO] __main__: Backend         : openrouter
+21:32:16 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+21:32:16 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+21:32:16 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+21:32:16 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+21:32:16 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+21:32:16 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+21:32:16 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+21:32:16 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+21:32:16 [INFO] experiments.rebuild_results_from_trace: [B0] Completeness=0.8181  TupleInt=0.9597  BaseAcc=0.5893
+21:34:36 [INFO] __main__: Extractor model : openai/gpt-5.4-nano
+21:34:36 [INFO] __main__: Detector model  : openai/gpt-5.4-nano
+21:34:36 [INFO] __main__: Reflector model : openai/gpt-5.4-nano
+21:34:36 [INFO] __main__: Backend         : openrouter
+21:34:36 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano
+21:34:36 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\openai_gpt-5.4-nano
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B0_full_trace.jsonl
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+21:34:36 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B0_results.json
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B0] Completeness=0.8181  TupleInt=0.9597  BaseAcc=0.5893
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B1] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\logs\B1_full_trace.jsonl
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B1] 219 trace entries
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B1] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B1] 219 result entries to evaluate
+21:34:36 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\openai_gpt-5.4-nano\B1_results.json
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B1] Evaluating 219 successful docs...
+21:34:36 [INFO] experiments.rebuild_results_from_trace: [B1] Completeness=0.7553  TupleInt=0.8495  BaseAcc=0.6187

@@ -1,0 +1,204 @@
+13:29:49 [INFO] __main__: Extractor model : deepseek/deepseek-v4-flash
+13:29:49 [INFO] __main__: Detector model  : deepseek/deepseek-v4-flash
+13:29:49 [INFO] __main__: Reflector model : deepseek/deepseek-v4-flash
+13:29:49 [INFO] __main__: Backend         : openrouter
+13:29:49 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\deepseek_deepseek-v4-flash
+13:29:49 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\deepseek_deepseek-v4-flash
+13:29:49 [INFO] __main__: [Redo] B0: no failed documents on record.
+13:29:49 [INFO] __main__: 
+------------------------------------------------------------
+13:29:49 [INFO] __main__:   REDO B1: 1 document(s)
+13:29:49 [INFO] __main__: ------------------------------------------------------------
+13:29:49 [WARNING] __main__: [Redo] B1: 1 doc_id(s) not found in dataset.
+13:29:49 [WARNING] __main__: [Redo] B1: nothing to redo after filtering.
+20:47:51 [INFO] __main__: Extractor model : deepseek/deepseek-v4-flash
+20:47:51 [INFO] __main__: Detector model  : deepseek/deepseek-v4-flash
+20:47:51 [INFO] __main__: Reflector model : deepseek/deepseek-v4-flash
+20:47:51 [INFO] __main__: Backend         : openrouter
+20:47:51 [INFO] __main__: Results dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\deepseek_deepseek-v4-flash
+20:47:51 [INFO] __main__: Figures dir     : D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\figures\deepseek_deepseek-v4-flash
+20:47:51 [INFO] experiments.rebuild_results_from_trace: [B0] Loading trace: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\deepseek_deepseek-v4-flash\logs\B0_full_trace.jsonl
+20:47:51 [INFO] experiments.rebuild_results_from_trace: [B0] 219 trace entries
+20:47:51 [INFO] experiments.rebuild_results_from_trace: [B0] text_id resolution: 219 exact | 0 fallback | 0 doi-only
+20:47:51 [INFO] experiments.rebuild_results_from_trace: [B0] 219 result entries to evaluate
+20:47:51 [INFO] experiments.rebuild_results_from_trace:   Saved: D:\XRESEARCH\0000_KSU\OmniPropAgent\New\OmniPropAgent\results\deepseek_deepseek-v4-flash\B0_results.json
+20:47:51 [INFO] experiments.rebuild_results_from_trace: [B0] Evaluating 219 successful docs...
+20:47:51 [INFO] experiments.rebuild_results_from_trace: [B0] Completeness=0.9334  TupleInt=0.9383  BaseAcc=0.6827
+20:47:51 [INFO] evaluation.hallucination_check: [B0] Hallucination check | judge=google/gemini-2.5-flash-lite | backend=openrouter | 219 documents
+20:47:55 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:47:55 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:47:58 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:47:58 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:04 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:04 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:05 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:05 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:06 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:07 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:07 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:09 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:09 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:10 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:10 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:11 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:15 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:15 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:15 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:15 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:16 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:16 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:17 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:18 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:19 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:19 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:20 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:20 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:21 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:21 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:22 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:22 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:23 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:23 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:24 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:25 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:28 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:28 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:29 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:29 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:29 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:29 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:30 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:30 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:32 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:32 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:33 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:33 [INFO] evaluation.hallucination_check:   [B0] 10/219 docs | novel=14 grounded=0 halluc=0 ambiguous=14
+20:48:34 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:34 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:37 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:37 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:38 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:38 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:39 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:39 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:40 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:40 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:41 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:41 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:42 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:42 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:43 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:43 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:44 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:45 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:45 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:45 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:46 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:46 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:46 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:47 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:48 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:49 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:49 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:48:50 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:50 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:48:51 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:51 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:48:52 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:52 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:48:59 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:02 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:03 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:04 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:04 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:05 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:05 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:06 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:06 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:09 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:09 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:09 [INFO] evaluation.hallucination_check:   [B0] 20/219 docs | novel=31 grounded=0 halluc=0 ambiguous=31
+20:49:10 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:10 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:16 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:16 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:16 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:18 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:18 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:20 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:20 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:21 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:21 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:22 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:22 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:23 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:23 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:24 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:24 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:25 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:25 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:26 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:26 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:27 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:29 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:45 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:45 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:45 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:46 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:46 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:47 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:48 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:48 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:49 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:49:49 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:50 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:49:52 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:49:52 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:49:53 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:01 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:50:01 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:02 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:50:03 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:04 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:04 [INFO] evaluation.hallucination_check:   [B0] 30/219 docs | novel=47 grounded=0 halluc=0 ambiguous=47
+20:50:05 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:06 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:07 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:07 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:07 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:08 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:50:09 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:09 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:50:11 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:11 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:11 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:12 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:50:12 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:13 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:50:14 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:14 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:15 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:16 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:16 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:17 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:17 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:50:17 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:18 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:50:18 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:18 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:19 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:19 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:50:20 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:21 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:50:21 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:22 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:22 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:23 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:23 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 2): Expecting value: line 1 column 1 (char 0)
+20:50:24 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:24 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 3): Expecting value: line 1 column 1 (char 0)
+20:50:25 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:25 [INFO] evaluation.hallucination_check:   [B0] 40/219 docs | novel=63 grounded=0 halluc=0 ambiguous=63
+20:50:25 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+20:50:26 [WARNING] evaluation.hallucination_check: Judge JSON parse error (attempt 1): Expecting value: line 1 column 1 (char 0)
+20:50:27 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"

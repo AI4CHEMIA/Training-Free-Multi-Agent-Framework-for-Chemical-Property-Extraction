@@ -1,0 +1,18 @@
+{
+  "experiment_id": "B0",
+  "extractor_model": "anthropic/claude-sonnet-5",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_backend": "openrouter",
+  "n_documents": 217,
+  "total_predictions": 517,
+  "total_novel_claims": 289,
+  "total_grounded": 272,
+  "total_hallucinated": 10,
+  "total_ambiguous": 7,
+  "grounded_rate_of_novel": 0.9412,
+  "halluc_rate_of_novel": 0.0346,
+  "ambiguous_rate_of_novel": 0.0242,
+  "novel_rate_of_total": 0.559,
+  "halluc_rate_of_total": 0.0193,
+  "grounded_rate_of_total": 0.5261
+}

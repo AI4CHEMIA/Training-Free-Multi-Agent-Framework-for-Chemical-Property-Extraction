@@ -1,0 +1,18 @@
+{
+  "experiment_id": "B0",
+  "extractor_model": "openai/gpt-5.6-luna-pro",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_backend": "openrouter",
+  "n_documents": 219,
+  "total_predictions": 510,
+  "total_novel_claims": 315,
+  "total_grounded": 286,
+  "total_hallucinated": 20,
+  "total_ambiguous": 9,
+  "grounded_rate_of_novel": 0.9079,
+  "halluc_rate_of_novel": 0.0635,
+  "ambiguous_rate_of_novel": 0.0286,
+  "novel_rate_of_total": 0.6176,
+  "halluc_rate_of_total": 0.0392,
+  "grounded_rate_of_total": 0.5608
+}

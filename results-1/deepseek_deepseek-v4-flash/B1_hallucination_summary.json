@@ -1,0 +1,18 @@
+{
+  "experiment_id": "B1",
+  "extractor_model": "anthropic/claude-haiku-4.5",
+  "judge_model": "google/gemma-4-26b-a4b-it",
+  "judge_backend": "openrouter",
+  "n_documents": 218,
+  "total_predictions": 417,
+  "total_novel_claims": 132,
+  "total_grounded": 132,
+  "total_hallucinated": 0,
+  "total_ambiguous": 0,
+  "grounded_rate_of_novel": 1.0,
+  "halluc_rate_of_novel": 0.0,
+  "ambiguous_rate_of_novel": 0.0,
+  "novel_rate_of_total": 0.3165,
+  "halluc_rate_of_total": 0.0,
+  "grounded_rate_of_total": 0.3165
+}
